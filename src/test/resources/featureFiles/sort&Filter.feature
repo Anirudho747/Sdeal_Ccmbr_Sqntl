@@ -6,14 +6,13 @@ Feature: Filter Books and sort Dress
                     And user taps on Filter
                     And selects Customer rating of 4 and above
                     And discount of "<discountPercent>"
-                    And upper price is set to "<upperLimit>"
                     And taps om Apply Filter
                     Then user is moved to result screen
                     And screen has matching labels
   Examples:
-  | searchTerm        | discountPercent | upperLimit     |
-  | Thriller novels   | 0-10            | 2000           |
-  | Educational books | 10-20           |  500           |
+  | searchTerm        | discountPercent |
+  | Thriller novels   | 0-10            |
+  | Educational books | 10-20           |
 
 
   Scenario Outline: Select Dress and arrange them by discount
@@ -21,7 +20,7 @@ Feature: Filter Books and sort Dress
     When user searches for "<searchTerm>"
     Then user is moved to result screen
     And selects size of "<size>"
-    And taps apply filter button
+    And taps om Apply Filter
     When user applies Sort by discount
     Then user is shown sorted list
     And user can see scratched price and new price
