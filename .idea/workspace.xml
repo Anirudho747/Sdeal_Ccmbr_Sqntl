@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="Wrapper File + Stepdef file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchScreen.java" afterDir="false" />
+    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="LOcators added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NovelScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/featureFiles/sort&amp;Filter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/featureFiles/sort&amp;Filter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrpr/Wrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrpr/Wrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/src/main/java&quot;
   }
@@ -90,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709607802330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LOcators added">
+      <option name="closed" value="true" />
+      <created>1710216640472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710216640472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pom Directory uploaded" />
     <MESSAGE value="Feature file prepared" />
     <MESSAGE value="Wrapper File + Stepdef file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrapper File + Stepdef file" />
+    <MESSAGE value="LOcators added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOcators added" />
   </component>
 </project>

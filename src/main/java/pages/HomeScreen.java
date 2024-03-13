@@ -7,6 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import wrpr.Wrap;
 
 public class HomeScreen extends Wrap {
@@ -31,10 +32,16 @@ public class HomeScreen extends Wrap {
 
     @Given("user is at Homescreen")
     public void userIsAtHomescreen() {
+        waitForVisibility(snapDealLabel);
+        Assert.assertTrue(eleIsDisplayed(snapDealLabel));
     }
 
     @When("user searches for {string}")
     public void userSearchesFor(String arg0) {
+        click(searchBar);
+        waitForVisibility(textBar);
+        enterValue(textBar, arg0);
+        pressEnter();
     }
 
 }

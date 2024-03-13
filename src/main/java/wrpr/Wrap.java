@@ -182,7 +182,6 @@ public class Wrap extends AbstractTestNGCucumberTests {
         /*        URL url= new URL("http://127.0.0.1:4723/wd/hub");
                 driver= new AndroidDriver(url,dc);
         */      driver= new AndroidDriver(new URI(serverURL).toURL(), dc);
-                System.out.println(new URI(serverURL).toURL()+"--177--");
             } else if (platformName.equalsIgnoreCase("iOS")) {
                 // Comment the below line based on need
                 dc.setCapability("autoAcceptAlerts", true);
@@ -538,6 +537,7 @@ public class Wrap extends AbstractTestNGCucumberTests {
         driver.manage().deleteAllCookies();
         return true;
     }
+
 
     public void waitForVisibility(WebElement e)
     {
