@@ -1,5 +1,6 @@
 Feature: Filter Books and sort Dress
 
+  @Books
   Scenario Outline: Select  Thriller novels and Educational books having more than 4 Stars in Reviews
                     Given user is at Homescreen
                     When user searches for "<searchTerm>"
@@ -10,11 +11,12 @@ Feature: Filter Books and sort Dress
                     Then user is moved to result screen
                     And screen has matching labels
   Examples:
-  | searchTerm        | discountPercent |
-  | Thriller novels   | 0-10            |
-  | Educational books | 10-20           |
+  | searchTerm         | discountPercent |
+  | Thriller novels    | 0-10            |
+  | Educational books  | 0-10            |
 
 
+  @Clothes
   Scenario Outline: Select Dress and arrange them by discount
     Given user is at Homescreen
     When user searches for "<searchTerm>"

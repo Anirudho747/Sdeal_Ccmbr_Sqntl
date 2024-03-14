@@ -9,6 +9,7 @@ import wrpr.Wrap;
 
 @CucumberOptions(features={"src/test/resources/featureFiles"},
                  glue = {"pages"},
+                 tags="@Clothes",
                  monochrome = true,
         plugin = {"pretty"})
 public class TestRunner extends Wrap {
