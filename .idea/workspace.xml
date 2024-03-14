@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="LOcators added">
+    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="Step def added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wrpr/Wrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrpr/Wrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -40,13 +43,32 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/src/main/java&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Ccmbr_Sequential" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/testng.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,14 +119,34 @@
       <option name="project" value="LOCAL" />
       <updated>1710216640472</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Step def added">
+      <option name="closed" value="true" />
+      <created>1710299397201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710299397202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pom Directory uploaded" />
     <MESSAGE value="Feature file prepared" />
     <MESSAGE value="Wrapper File + Stepdef file" />
     <MESSAGE value="LOcators added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LOcators added" />
+    <MESSAGE value="Step def added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step def added" />
   </component>
 </project>

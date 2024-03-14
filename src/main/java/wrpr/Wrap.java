@@ -138,9 +138,9 @@ public class Wrap extends AbstractTestNGCucumberTests {
                 dc.setCapability("udid", udid);
             // To pass the absolute path of the application
             if (!app.equals("")) {
-                appserver = "/app_prod_release.apk";
+                appserver = "/Snapdeal.apk";
                 dc.setCapability("app", System.getProperty("user.dir") + appserver);
-                //    dc.setCapability("app", "Users/a1707/Documents/app_prod_release.apk");
+              //      dc.setCapability("app", "Users/a1707/Documents/Apps/Snapdeal.apk");
             }
             // Android
             if (!appPackage.equals(""))
