@@ -8,7 +8,7 @@ Scenario Outline: User tries to login with invalid numbers
                   Then user is asked for mobileNumber
                   When user enters number "<number>"
                   And taps on Continue buttom
-                  Then user gets a validation Message
+                  Then user is not asked for name
   Examples
   | number     | message                                                           |
   |            | Please enter a valid mobile number to continue                    |
@@ -21,12 +21,15 @@ Scenario: User tries to login with valid number
           When user taps at Profile tab
           And taps on Signup button
           Then user is asked for mobileNumber
-          When user enters number 7550134740
+          When user enters number "<number>"
           And taps on Continue buttom
           Then user is asked for name
-          When user enters "Anil"
+          When user enters "<name>"
           And  taps on Continue button
           Then user is moved to Verify OTP screen
+Examples
+| number       | name  |
+| 7550134740   | Anil  |
 
 Scenario: User taps on Legal Policies
           Given user is at Homescreen

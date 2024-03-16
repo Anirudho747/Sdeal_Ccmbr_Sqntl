@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="Added Tags and updated locator">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/featureFiles/ProfileScreen.feature" afterDir="false" />
+    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="Added Profile screen feature file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProfileScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrpr/Wrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrpr/Wrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/featureFiles/sort&amp;Filter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/featureFiles/HomeScreen.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featureFiles/ProfileScreen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/featureFiles/ProfileScreen.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,64 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Feature: ProfileScreen">
+    <configuration name="Feature: ProfileScreen" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/featureFiles/ProfileScreen.feature" />
+      <option name="GLUE" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Appium_Ccmbr_Sequential" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: ProfileScreen" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Select  Thriller novels and Educational books having more than 4 Stars in Reviews" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/featureFiles/HomeScreen.feature" />
+      <option name="GLUE" value="pages runner" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Appium_Ccmbr_Sequential" />
+      <option name="NAME_FILTER" value="^Select  Thriller novels and Educational books having more than 4 Stars in Reviews$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Select  Thriller novels and Educational books having more than 4 Stars in Reviews$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Select  Thriller novels and Educational books having more than 4 Stars in Reviews" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Ccmbr_Sequential" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium_Ccmbr_Sequential" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -66,6 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: ProfileScreen" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Select  Thriller novels and Educational books having more than 4 Stars in Reviews" />
         <item itemvalue="TestNG./Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/testng.xml" />
       </list>
     </recent_temporary>
@@ -143,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710383133160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Profile screen feature file">
+      <option name="closed" value="true" />
+      <created>1710385420607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710385420607</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +234,12 @@
     <MESSAGE value="Step def added" />
     <MESSAGE value="Testrunner &amp; testng.xml file added" />
     <MESSAGE value="Added Tags and updated locator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Tags and updated locator" />
+    <MESSAGE value="Added Profile screen feature file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Profile screen feature file" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Appium_Ccmbr_Sequential$Feature__ProfileScreen.ic" NAME="Feature: ProfileScreen Coverage Results" MODIFIED="1710555944060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>

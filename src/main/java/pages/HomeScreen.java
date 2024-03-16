@@ -25,6 +25,10 @@ public class HomeScreen extends Wrap {
     @iOSXCUITFindBy()
     protected WebElement textBar;
 
+    @AndroidFindBy(xpath="(//*[@resource-id='com.snapdeal.main:id/iv_tabIcon1'])[4]")
+    @iOSXCUITFindBy()
+    protected WebElement profileTab;
+
     public HomeScreen()
     {
         PageFactory.initElements(new AppiumFieldDecorator(driver),this);
@@ -42,6 +46,12 @@ public class HomeScreen extends Wrap {
         waitForVisibility(textBar);
         enterValue(textBar, arg0);
         pressEnter();
+    }
+
+    @When("user taps at Profile tab")
+    public void userTapsAtProfileTab() {
+        waitForVisibility(profileTab);
+        click(profileTab);
     }
 
 }
