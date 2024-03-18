@@ -9,9 +9,9 @@ import wrpr.Wrap;
 
 @CucumberOptions(features={"src/test/resources/featureFiles"},
                  glue = {"pages"},
-                 tags="@ProfileScreen",
+      //           tags="@ProfileScreen",
                  monochrome = true,
-                 dryRun = true,
+                 dryRun = false,
         plugin = {"pretty"})
 public class TestRunner extends Wrap {
     @BeforeSuite

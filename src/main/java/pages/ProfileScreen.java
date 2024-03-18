@@ -37,6 +37,14 @@ public class ProfileScreen extends Wrap {
     @iOSXCUITFindBy()
     protected WebElement legalPolicies;
 
+    @AndroidFindBy(xpath="//android.widget.TextView[@text='TERMS OF USE']")
+    @iOSXCUITFindBy()
+    protected WebElement TOS;
+
+    @AndroidFindBy(xpath="//android.widget.TextView[contains(@text,'ABUSE')]")
+    @iOSXCUITFindBy()
+    protected WebElement RAT;
+
     public ProfileScreen() {
     PageFactory.initElements(new AppiumFieldDecorator(driver),this);
     }
@@ -59,7 +67,7 @@ public class ProfileScreen extends Wrap {
       //  pressEnter();
     }
 
-    @And("taps on Continue buttom")
+    @And("taps on Continue button")
     public void TapsOnContinueButton() {
         click(continueButton);
     }
@@ -70,8 +78,9 @@ public class ProfileScreen extends Wrap {
         Assert.assertTrue(eleIsDisplayed(name));
     }
 
-    @When("user enters name {string}")
+    @When("user enters {string}")
     public void userEntersName(String arg0) {
+        waitForVisibility(name);
         click(name);
         enterValue(name, arg0);
         //pressEnter();
@@ -87,6 +96,35 @@ public class ProfileScreen extends Wrap {
     public void UserIsNotAskedForName() {
         //waitForVisibility(name);
         Assert.assertFalse(eleIsDisplayed(name));
+    }
+
+    @Then("Terms button is not visible")
+    public void TermsButtonIsNotVisible() {
+        //waitForVisibility(name);
+        Assert.assertFalse(eleIsDisplayed(TOS));
+    }
+
+    @Then("Report button is not visible")
+    public void ReportButtonIsNotVisible() {
+        //waitForVisibility(name);
+        Assert.assertFalse(eleIsDisplayed(RAT));
+    }
+
+    @When("user taps on Legal button")
+    public void TapsOnLegalButton() {
+        click(legalPolicies);
+    }
+
+    @Then("Terms button is visible")
+    public void TermsButtonIsVisible() {
+        //waitForVisibility(name);
+        Assert.assertTrue(eleIsDisplayed(TOS));
+    }
+
+    @And("Report button is visible")
+    public void ReportButtonIsVisible() {
+        //waitForVisibility(name);
+        Assert.assertTrue(eleIsDisplayed(RAT));
     }
 
 }
