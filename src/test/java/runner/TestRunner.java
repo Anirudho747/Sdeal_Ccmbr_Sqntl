@@ -12,7 +12,8 @@ import wrpr.Wrap;
       //           tags="@ProfileScreen",
                  monochrome = true,
                  dryRun = false,
-        plugin = {"pretty"})
+        plugin = {"pretty",
+                  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestRunner extends Wrap {
     @BeforeSuite
     public void bs()

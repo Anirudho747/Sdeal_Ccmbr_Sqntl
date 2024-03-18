@@ -1,5 +1,5 @@
 @ProfileScreen
-Feature: Login, Change Language & check Legal Policies
+Feature: Login & check Legal Policies
 
 @invalidNumber
 Scenario Outline: User tries to login with invalid numbers

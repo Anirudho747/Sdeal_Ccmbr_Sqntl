@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="Profile screen locators and step def added">
+    <list default="true" id="20bde233-0b60-4915-98d4-f33aa8f40098" name="Changes" comment="Code successfully running for all 9 test cases along with a few human touches here and there">
+      <change afterPath="$PROJECT_DIR$/MobileAutomation_Report/Extent_Report 18-Mar-2024 07-52-17/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProfileScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/featureFiles/ProfileScreen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/featureFiles/ProfileScreen.feature" afterDir="false" />
     </list>
@@ -34,21 +35,25 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2dCnAXFxPCSAhG8V28Zhfgkbbj0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/a1707/eclipse-workspace/Appium_Ccmbr_Sequential/src/test/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -220,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710562582877</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Code successfully running for all 9 test cases along with a few human touches here and there">
+      <option name="closed" value="true" />
+      <created>1710728248547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710728248547</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +248,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Pom Directory uploaded" />
     <MESSAGE value="Feature file prepared" />
     <MESSAGE value="Wrapper File + Stepdef file" />
@@ -244,7 +258,8 @@
     <MESSAGE value="Added Tags and updated locator" />
     <MESSAGE value="Added Profile screen feature file" />
     <MESSAGE value="Profile screen locators and step def added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile screen locators and step def added" />
+    <MESSAGE value="Code successfully running for all 9 test cases along with a few human touches here and there" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code successfully running for all 9 test cases along with a few human touches here and there" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Appium_Ccmbr_Sequential$Feature__ProfileScreen.ic" NAME="Feature: ProfileScreen Coverage Results" MODIFIED="1710555944060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
